@@ -2,12 +2,14 @@ import React from "react";
 import Header from "../components/Header";
 import styled from "styled-components";
 import backgroundImageUrl from "../assets/images/background.jpg";
+import Footer from "../components/Footer";
 
 const MainPage = () => {
   return (
     <MainWrapper>
       <Header />
       <PageName>SIK-K</PageName>
+      <Footer />
     </MainWrapper>
   );
 };
@@ -27,5 +29,6 @@ const MainWrapper = styled.div`
 
 const PageName = styled.h1`
   font-size: 10rem;
-  font-weight: 400;
+  font-weight: 700;
+  font-style: italic;
 `;

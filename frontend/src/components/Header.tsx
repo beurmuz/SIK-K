@@ -22,7 +22,7 @@ const HeaderWrapper = styled.div`
   display: flex;
   flex-direction: row-reverse;
   width: 100%;
-  height: 20vh;
+  height: 30vh;
   background-color: transparent;
   padding: 30px 0px;
 `;

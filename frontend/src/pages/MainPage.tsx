@@ -9,6 +9,7 @@ const MainPage = () => {
     <MainWrapper>
       <Header />
       <PageName>SIK-K</PageName>
+      <ArtistID>@younghotyellow94</ArtistID>
       <Footer />
     </MainWrapper>
   );
@@ -31,4 +32,10 @@ const PageName = styled.h1`
   font-size: 10rem;
   font-weight: 700;
   font-style: italic;
+`;
+
+const ArtistID = styled.h3`
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: gray;
 `;

@@ -8,8 +8,10 @@ const MainPage = () => {
   return (
     <MainWrapper>
       <Header />
-      <PageName>SIK-K</PageName>
-      <ArtistID>@younghotyellow94</ArtistID>
+      <MainContentWrapper>
+        <PageName>SIK-K</PageName>
+        <ArtistID>@younghotyellow94</ArtistID>
+      </MainContentWrapper>
       <Footer />
     </MainWrapper>
   );
@@ -26,6 +28,14 @@ const MainWrapper = styled.div`
   background-size: cover;
   color: white;
   padding: 50px;
+`;
+
+const MainContentWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 60vh;
 `;
 
 const PageName = styled.h1`

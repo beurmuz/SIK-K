@@ -21,6 +21,7 @@ const FooterWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: gray;
 `;
 
 const InfoPTag1 = styled.p`

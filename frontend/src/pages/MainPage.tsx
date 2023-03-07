@@ -106,7 +106,7 @@ const MainBox_02 = styled.div`
   height: 100vh;
   background-color: black;
   color: white;
-  padding: 80px 70px;
+  padding: 100px 70px;
 `;
 
 const MainContent_02 = styled.div`
@@ -114,7 +114,6 @@ const MainContent_02 = styled.div`
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  // height: 60vh;
 `;
 
 const MainArticles = styled.div`
@@ -122,19 +121,19 @@ const MainArticles = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-left: 1px solid gray;
 `;
 
 const FaceImage = styled.img.attrs({
   src: `${faceImageUrl}`,
 })`
-  width: 30%;
-  padding-left: 20px;
+  width: 25%;
+  padding: 20px;
+  border-radius: 500px;
 `;
 
 const Article = styled.article`
-  width: 70%;
-  padding: 0px 30px;
+  width: 75%;
+  padding: 20px;
 `;
 
 const Discription = styled.p`

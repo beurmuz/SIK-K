@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <>
       <FooterWrapper>
-        <InfoPTag1>Developer: beurmuz, Email: fallinta2@gmail.com</InfoPTag1>
-        <InfoPTag2>Copyright ⓒ 2022.beurmuz. All rights reserved.</InfoPTag2>
+        <InfoPTag1>Contact | fallinta2@gmail.com</InfoPTag1>
+        <InfoPTag2>Copyright ⓒ 2023.beurmuz. All rights reserved.</InfoPTag2>
       </FooterWrapper>
     </>
   );

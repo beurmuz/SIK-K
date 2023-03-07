@@ -6,7 +6,7 @@ const Footer = () => {
     <>
       <FooterWrapper>
         <InfoPTag1>Contact | fallinta2@gmail.com</InfoPTag1>
-        <InfoPTag2>Copyright ⓒ 2023.beurmuz. All rights reserved.</InfoPTag2>
+        <InfoPTag2>Copyright | ⓒ 2023 beurmuz. All rights reserved.</InfoPTag2>
       </FooterWrapper>
     </>
   );

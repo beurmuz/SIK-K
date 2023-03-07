@@ -21,20 +21,23 @@ const MainPage = () => {
         <MainContent_02>
           <PartName>Who is he?</PartName>
           <MainArticles>
+            <FaceImage />
             <Article>
-              <FaceImage />
-              <Discription_01>
+              <Discription>
                 In 2015, He debuted with the song “My Man”. In 2015, He debuted
-                with the song “My Man”.
-              </Discription_01>
-            </Article>
-            <Article>
-              In 2015, He debuted with the song “My Man”. In 2015, He debuted
-              with the song “My Man”.
-            </Article>
-            <Article>
-              In 2015, He debuted with the song “My Man”. In 2015, He debuted
-              with the song “My Man”.
+                with the song “My Man”.In 2015, He debuted with the song “My
+                Man”. In 2015, He debuted with the song “My Man”.
+              </Discription>
+              <Discription>
+                In 2015, He debuted with the song “My Man”. In 2015, He debuted
+                with the song “My Man”.In 2015, He debuted with the song “My
+                Man”. In 2015, He debuted with the song “My Man”.
+              </Discription>
+              <Discription>
+                In 2015, He debuted with the song “My Man”. In 2015, He debuted
+                with the song “My Man”.In 2015, He debuted with the song “My
+                Man”. In 2015, He debuted with the song “My Man”.
+              </Discription>
             </Article>
           </MainArticles>
         </MainContent_02>
@@ -85,13 +88,14 @@ const HomePageName = styled.h1`
 `;
 
 const PartName = styled.h2`
-  font-size: 8rem;
+  font-size: 7rem;
   font-weight: 700;
   font-style: italic;
+  padding-bottom: 50px;
 `;
 const ArtistID = styled.h3`
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 500;
   color: gray;
 `;
 
@@ -118,22 +122,26 @@ const MainArticles = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  // border-top: 1px solid gray;
-`;
-
-const Article = styled.article`
-  width: 30%;
-  padding: 30px 0px;
+  border-left: 1px solid gray;
 `;
 
 const FaceImage = styled.img.attrs({
   src: `${faceImageUrl}`,
 })`
-  width: 100%;
+  width: 30%;
+  padding-left: 20px;
 `;
 
-const Discription_01 = styled.p`
+const Article = styled.article`
+  width: 70%;
+  padding: 0px 30px;
+`;
+
+const Discription = styled.p`
   width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-bottom: 20px;
 `;
 
 const MainBox_03 = styled.div`

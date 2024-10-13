@@ -2,8 +2,37 @@
   background-color: var(--black);
   color: var(--white);
   text-align: center;
+
+  // width: 100vw;
+  // height: 100vh;
+}
+
+.wrap-nav {
   width: 100vw;
-  height: 100vh;
+  height: 10vh;
+  display: flex;
+
+  .pagename {
+    font-size: 8rem;
+  }
+
+  .wrap-list {
+    display: flex;
+    // justify-content: cen;
+  }
+}
+
+.iframe-container {
+  height: 90vh;
+  position: relative;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 button {
